@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup component renders a SignupCompont  1`] = `
+<View
+  style={
+    Object {
+      "alignSelf": "stretch",
+      "backgroundColor": "#36485f",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingLeft": 60,
+      "paddingRight": 60,
+    }
+  }
+>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#00000040",
+          "flex": 1,
+          "flexDirection": "column",
+          "justifyContent": "space-around",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#FFFFFF",
+            "borderRadius": 10,
+            "display": "flex",
+            "height": 100,
+            "justifyContent": "space-around",
+            "width": 100,
+          }
+        }
+      >
+        <ActivityIndicator
+          animating={false}
+          color="#999999"
+          hidesWhenStopped={true}
+          size="small"
+        />
+      </View>
+    </View>
+  </Modal>
+  <Text
+    style={
+      Object {
+        "borderBottomColor": "#199187",
+        "borderBottomWidth": 1,
+        "color": "#ffffff",
+        "fontSize": 24,
+        "marginBottom": 40,
+        "paddingBottom": 10,
+      }
+    }
+  >
+    Signup Form
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Name"
+    placeholderTextColor="#fff"
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "borderBottomColor": "#f8f8f8",
+        "borderBottomWidth": 1,
+        "color": "#ffffff",
+        "height": 40,
+        "marginBottom": 30,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Email id"
+    placeholderTextColor="#fff"
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "borderBottomColor": "#f8f8f8",
+        "borderBottomWidth": 1,
+        "color": "#ffffff",
+        "height": 40,
+        "marginBottom": 30,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="GST Number"
+    placeholderTextColor="#fff"
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "borderBottomColor": "#f8f8f8",
+        "borderBottomWidth": 1,
+        "color": "#ffffff",
+        "height": 40,
+        "marginBottom": 30,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Username"
+    placeholderTextColor="#fff"
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "borderBottomColor": "#f8f8f8",
+        "borderBottomWidth": 1,
+        "color": "#ffffff",
+        "height": 40,
+        "marginBottom": 30,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Password"
+    placeholderTextColor="#fff"
+    secureTextEntry={true}
+    style={
+      Object {
+        "alignSelf": "stretch",
+        "borderBottomColor": "#f8f8f8",
+        "borderBottomWidth": 1,
+        "color": "#ffffff",
+        "height": 40,
+        "marginBottom": 30,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "stretch",
+        "backgroundColor": "#59cbbd",
+        "borderBottomWidth": null,
+        "borderColor": "#007aff",
+        "borderLeftWidth": null,
+        "borderRadius": 5,
+        "borderRightWidth": null,
+        "borderTopWidth": null,
+        "borderWidth": undefined,
+        "elevation": 2,
+        "flexDirection": "row",
+        "height": 45,
+        "justifyContent": "center",
+        "marginTop": 30,
+        "opacity": 1,
+        "padding": 20,
+        "paddingBottom": 6,
+        "paddingTop": 6,
+        "shadowColor": undefined,
+        "shadowOffset": undefined,
+        "shadowOpacity": undefined,
+        "shadowRadius": undefined,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Sign up
+    </Text>
+  </View>
+</View>
+`;

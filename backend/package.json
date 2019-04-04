@@ -1,0 +1,25 @@
+{
+  "name": "testserver",
+  "version": "1.0.0",
+  "description": "Node server demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon test.js",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "mongoose",
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mochawesome": "^3.1.1",
+    "mongoose": "^5.4.11",
+    "nodemon": "^1.18.10"
+  }
+}
